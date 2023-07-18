@@ -1,5 +1,5 @@
 # 【密碼學導覽與解謎】── 寓教於樂的RPG小品解謎
-![橫幅](https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving./assets/114667055/f3ec428f-e93c-4165-b3c0-63afdf8d2fe6")
+![橫幅](https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/f91d1edc-7b74-4562-ad73-73103f8562af>)
 【密碼學導覽與解謎】是我在大學時與同學們共同製作的專題。這款名為專題的遊戲，可以說是因為同學 [yoyo](https://github.com/oydoubleyo) 的突發奇想而產生的。由他提出各種天馬行空的想法，然後我再進一步製作實現。於是，這款遊戲就這樣誕生了。
 
 
@@ -13,8 +13,8 @@
 ## 遊戲畫面
 #### 　[背包系統(Inventory Manager)]()
 <div align=center>
-  <img width="639" alt="Inventory1" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving./assets/114667055/5f3d99a9-74da-4fc9-9bac-84a969717043">
-  <img width="637" alt="Inventory2" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving./assets/114667055/7faf63c7-5674-4299-ae4f-ba644ae35ce3">
+  <img width="639" alt="Inventory1" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/74116fae-8c95-465c-a61f-4d887a98e228">
+  <img width="637" alt="Inventory2" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/8597a425-d82a-43f8-875b-4213bb7a0735">
 </div>
 
 
