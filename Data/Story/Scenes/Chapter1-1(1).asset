@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe48a4115bfbb40bb17643688dd38b, type: 3}
+  m_Name: Chapter1-1(1)
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: ' '
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 32595e4b2461f6448bdfa785887bab88, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: -400, y: 0}
+      moveSpeed: 0
+    autoPlay: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C...\u7409\u7A57\uFF0C\u4F60\u771F\u7684\u6C7A\u5B9A\u4E86\u55CE\uFF1F\u300D"
+    speaker: {fileID: 11400000, guid: 32595e4b2461f6448bdfa785887bab88, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 32595e4b2461f6448bdfa785887bab88, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: -400, y: 0}
+      moveSpeed: 0
+    autoPlay: 0
+    music: {fileID: 8300000, guid: 14e7043a0137b4b4dae51c4e4148f5f2, type: 3}
+    sound: {fileID: 0}
+  - text: "\u300C@#!%\u4F60\u4E0D\u662F\u8AAA\u4E86\u55CE\uFF1F\u9019#@!#\u88E1\u9762\u6709\u6211#@%!\u5931\u8E64\u7684\u7DDA\u7D22\u3002\u300D"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+      spriteIndex: 5
+      actionType: 1
+      coords: {x: 400, y: 0}
+      moveSpeed: 0
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u662F\u6C92\u932F\uFF0C\u53EF\u662F\u2026\u2026\u300D"
+    speaker: {fileID: 11400000, guid: 32595e4b2461f6448bdfa785887bab88, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' '
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: -700, y: 0}
+      moveSpeed: 0
+    autoPlay: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u5B69\u5B50\u7684\u5ABD\uFF0C\u5B69\u5B50\u9577\u5927\u4E86\u6514\u4E0D\u4F4F\u7684\uFF0C\u96A8\u4ED6\u53BB\u5427...\u300D"
+    speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: -700, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: -650, y: 0}
+      moveSpeed: 0
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' '
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+      spriteIndex: 5
+      actionType: 3
+      coords: {x: 400, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: -700, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 32595e4b2461f6448bdfa785887bab88, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: -400, y: 0}
+      moveSpeed: 0
+    autoPlay: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 6cb1e12a112027c44a64b2a6e0ae5ba4, type: 3}
+  nextScene: {fileID: 11400000, guid: f9afc7f018540e642a1c45fa07822609, type: 2}
+  gameScene: 
+  autoPlay: 0

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53af5cc0c4a1ff949ad34997d726e8f8, type: 3}
+  m_Name: Elf
+  m_EditorClassIdentifier: 
+  speakerName: "\u5C0F\u827E"
+  textColor: {r: 0.8773585, g: 0.25382695, b: 0.804677, a: 0.74509805}
+  sprites:
+  - {fileID: 21300000, guid: d552b3191ff7ebe4ebd1b5bfc3f50435, type: 3}
+  - {fileID: 21300000, guid: 7a99910c562dd6f4aaea5b30380eb825, type: 3}
+  - {fileID: 21300000, guid: 5764464916ef0df4c956ae451064ddaf, type: 3}
+  - {fileID: 21300000, guid: 49a4b8623daf5f645b26dd9a11a8de1a, type: 3}
+  - {fileID: 21300000, guid: 169258afa52836d489c14c30e4d43ba2, type: 3}
+  - {fileID: 21300000, guid: efc8c5e18ef1e814a90dd7fdcb8716e2, type: 3}
+  - {fileID: 21300000, guid: ad764d749620bab4f9641502b5d0c612, type: 3}
+  - {fileID: 21300000, guid: 7878a58af053c2f4fa8b471cedfe4c69, type: 3}
+  prefab: {fileID: 19500075895246061, guid: 063b5041e8392ee4c9c52f6dce516afa, type: 3}

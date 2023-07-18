@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0dfd03b896023f4d8c73e45301262a0, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  labels:
+  - text: "\u91CD\u8907\u64AD\u653E"
+    nextScene: {fileID: 11400000, guid: ab600657eaa97144ab85b960b33253f7, type: 2}
+  - text: "\u4E0B\u4E00\u5E55"
+    nextScene: {fileID: 11400000, guid: 1f5f8f1fb2b9f9946a0a0b8450725777, type: 2}
