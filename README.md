@@ -11,7 +11,6 @@
 
 
 ## 遊戲畫面
-#### 　[背包系統(Inventory Manager)]()
 <div align=center>
   <img width="639" alt="Inventory1" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/74116fae-8c95-465c-a61f-4d887a98e228">
   <img width="637" alt="Inventory2" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/8597a425-d82a-43f8-875b-4213bb7a0735">
