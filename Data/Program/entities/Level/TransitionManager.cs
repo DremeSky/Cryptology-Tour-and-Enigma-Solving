@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement ;
 
 public class TransitionManager : Singleton<TransitionManager>
 {
-    [SceneName] public string startScene ;
+    [SceneName] public string startScene;
 
-    public CanvasGroup  fadeCanvasGroup ;
+    public CanvasGroup fadeCanvasGroup ;
     public float fadeDuration ;
     private bool isFade ;
 
-    private void start()
+    private void Start()
     {
         StartCoroutine(TransitionToScene(string.Empty ,startScene)) ;
     }

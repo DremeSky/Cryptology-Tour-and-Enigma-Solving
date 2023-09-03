@@ -5,30 +5,45 @@ using TMPro ;
 
 public class BottomBarController : MonoBehaviour
 {
-    public TextMeshProUGUI barText ;
-    public TextMeshProUGUI personNameText ;
+    //外部數據 (public)
+        public TextMeshProUGUI barText ;
+        public TextMeshProUGUI personNameText ;
+        public Dictionary<Speaker ,SpriteController> sprites ;
+        public GameObject spritesPrefab ;
 
-    private int sentenceIndex =-1 ;
-    private StoryScene currentScene ;
-    private State state =State.COMPLETED ;
-    private Animator animator ;
-    private bool isHidden =false ;
 
-    public Dictionary<Speaker ,SpriteController> sprites ;
-    public GameObject spritesPrefab ;
-
-    private Coroutine typingCoroutine ;
-    private float speedFactor =1f ;
-
-    private enum State
-    {
-        PLAYING ,SPEEDED_UP ,COMPLETED 
-    }
+    //內部資料 (private) {測試用時，會打開成public查看數據}
+        private int sentenceIndex =-1 ;
+        private StoryScene currentScene ;
+        private enum State
+        {
+            PLAYING ,SPEEDED_UP ,COMPLETED 
+        }
+        private State state =State.COMPLETED ;
+        private Animator animator ;
+        private bool isHidden =false ;
+        private Coroutine typingCoroutine ;
+        private float speedFactor =1f ;
+        private bool open_windows = false;  //Shift、右鍵 : 對話關閉
+        private string bottomBar_Text = ""; //用來回傳給GameController做對話紀錄用
+    
 
     private void Start()
     {
+        //變數重製
+        SetData();
+    }
+
+
+    private void SetData()
+    {
+        //取得物件
         sprites =new Dictionary<Speaker ,SpriteController>() ;
         animator =GetComponent<Animator>() ;
+        
+        //變數重製
+        open_windows = false;
+        bottomBar_Text = "";
     }
 
     public int GetSentenceIndex()
@@ -75,14 +90,6 @@ public class BottomBarController : MonoBehaviour
         PlaySentence(isAnimated) ;
     }
 
-    public void GoBack()
-    {
-        sentenceIndex-- ;
-        StopTyping() ;
-        HideSprites() ;
-        PlaySentence(false) ;
-    }
-
     public bool IsCompleted()
     {
         return state==State.COMPLETED || state==State.SPEEDED_UP ;
@@ -121,6 +128,8 @@ public class BottomBarController : MonoBehaviour
 
     private void PlaySentence(bool isAnimated =true)
     {
+        bottomBar_Text = currentScene.sentences[sentenceIndex].text;    //對話紀錄用 {GameController}
+
         speedFactor =1f ;
         typingCoroutine =StartCoroutine(TypeText(currentScene.sentences[sentenceIndex].text)) ;
         personNameText.text =currentScene.sentences[sentenceIndex].speaker.speakerName ;
@@ -130,7 +139,7 @@ public class BottomBarController : MonoBehaviour
 
     private IEnumerator TypeText(string text)
     {
-        barText.text ="" ;
+        barText.text = "" ;
         state =State.PLAYING ;
         int wordIndex =0 ;
 
@@ -182,5 +191,30 @@ public class BottomBarController : MonoBehaviour
                 break ;
         }
         controller.SwitchSprite(action.speaker.sprites[action.spriteIndex] ,isAnimated) ;
+    }
+
+
+    //Shift、右鍵 : 對話關閉
+    public void Button_UnDemo()
+    {
+        if(!open_windows)
+        {
+            animator.SetTrigger("UnDemo") ;
+            open_windows = true;
+        }
+    }
+    public void Button_Demo()
+    {
+        if(open_windows)
+        {
+            animator.SetTrigger("Demo") ;
+            open_windows = false;
+        }
+    }
+
+    //從bottomBar回傳bottomBar_Text給GameController，做對話紀錄用(Q、滑鼠中鍵)。
+    public string return_BottomBarText()
+    {
+        return bottomBar_Text;
     }
 }

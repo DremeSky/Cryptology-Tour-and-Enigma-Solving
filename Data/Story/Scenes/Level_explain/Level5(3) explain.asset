@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe48a4115bfbb40bb17643688dd38b, type: 3}
+  m_Name: Level5(3) explain
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\u300C\u518D\u4F86\u8981\u7528\u5230\u7684\u03A6()\uFF0C\u662F\u5C24\u62C9(\u6B50\u62C9)\u51FD\u6578\u3002\u300D"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u662F\u6307\u5C0F\u65BC\u81EA\u5DF1\uFF0C\u4E14\u8207\u81EA\u5DF1\u4E92\u8CEA\u7684\u6578\u5B57\u500B\u6578\u3002\u300D"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u4EE58\u4F86\u8209\u4F8B\u03A6(8)\uFF0C\u6BD48\u5C0F\u4E14\u8207\u5176\u4E92\u8CEA\u7684\u6709
+      1 3 5 7\uFF0C\u6240\u4EE5\u03A6(8)=4 \u3002\u300D"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 27f8ae771a2ccac4e929b6a25f90db03, type: 3}
+  nextScene: {fileID: 11400000, guid: ce9dfc8321c6cdf4ebcbcb93b2ff2197, type: 2}
+  gameScene: 
+  autoPlay: 0

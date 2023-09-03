@@ -16,11 +16,22 @@ MonoBehaviour:
   textColor: {r: 0.8773585, g: 0.25382695, b: 0.804677, a: 0.74509805}
   sprites:
   - {fileID: 21300000, guid: d552b3191ff7ebe4ebd1b5bfc3f50435, type: 3}
-  - {fileID: 21300000, guid: 7a99910c562dd6f4aaea5b30380eb825, type: 3}
+  - {fileID: 21300000, guid: 041b60bfb3553284c9056eaa295abc53, type: 3}
+  - {fileID: 21300000, guid: 338c0e51af86fbb44b343bf3585b692c, type: 3}
   - {fileID: 21300000, guid: 5764464916ef0df4c956ae451064ddaf, type: 3}
+  - {fileID: 21300000, guid: 7a99910c562dd6f4aaea5b30380eb825, type: 3}
   - {fileID: 21300000, guid: 49a4b8623daf5f645b26dd9a11a8de1a, type: 3}
   - {fileID: 21300000, guid: 169258afa52836d489c14c30e4d43ba2, type: 3}
   - {fileID: 21300000, guid: efc8c5e18ef1e814a90dd7fdcb8716e2, type: 3}
   - {fileID: 21300000, guid: ad764d749620bab4f9641502b5d0c612, type: 3}
   - {fileID: 21300000, guid: 7878a58af053c2f4fa8b471cedfe4c69, type: 3}
+  - {fileID: 21300000, guid: bba11081ba5736e47856dd216fe67753, type: 3}
+  - {fileID: 21300000, guid: 8c4d7479a96621849a7306e45e05bd8f, type: 3}
+  - {fileID: 21300000, guid: d4f5e10130d34b749b42ad11f96d5012, type: 3}
+  - {fileID: 21300000, guid: ab5db435d66fc904d912bc0d30dd5eb9, type: 3}
+  - {fileID: 21300000, guid: 122d2121a717e904f88bc5ed57250fe2, type: 3}
+  - {fileID: 21300000, guid: 0f70b87890facd5498e30e7c3a9f1009, type: 3}
+  - {fileID: 21300000, guid: 1ad7d5086fc927044bede2181eb8e9df, type: 3}
+  - {fileID: 21300000, guid: 7a252513752d29f449a040b8025fe1ca, type: 3}
+  - {fileID: 21300000, guid: f1ae608d97b8f9d4da4fc7283a65ab15, type: 3}
   prefab: {fileID: 19500075895246061, guid: 063b5041e8392ee4c9c52f6dce516afa, type: 3}

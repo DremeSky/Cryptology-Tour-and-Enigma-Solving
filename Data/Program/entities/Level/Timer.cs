@@ -44,4 +44,9 @@ public class Timer : MonoBehaviour
     public bool End(){
         return SumSecond==0 ;
     }
+
+    public int TimeLeft()
+    {
+        return SumSecond;
+    }
 }

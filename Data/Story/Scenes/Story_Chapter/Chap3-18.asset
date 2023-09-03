@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe48a4115bfbb40bb17643688dd38b, type: 3}
+  m_Name: Chap3-18
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\u2026\u2026\u5728\u7409\u7A57\u4E00\u884C\u4EBA\u6536\u96C6\u5B8C\u907A\u8DE1\u4E2D\u7684\u5BF6\u7269\u4E4B\u5F8C\u2026\u3002"
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 6cb1e12a112027c44a64b2a6e0ae5ba4, type: 3}
+  nextScene: {fileID: 11400000, guid: 77c0f189b31d94d42b49e062f77d15bf, type: 2}
+  gameScene: 
+  autoPlay: 0

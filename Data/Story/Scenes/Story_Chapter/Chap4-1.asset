@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe48a4115bfbb40bb17643688dd38b, type: 3}
+  m_Name: Chap4-1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\u2026\u7A0D\u65E9\u5728\u7409\u7A57\u4E8C\u4EBA\u9084\u672A\u901A\u904E\u9752\u9F8D\u8A66\u7149\u6642\u2026\u3002"
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 8300000, guid: 3cfad171e2bd29e4c86f05e1ccb49786, type: 3}
+    sound: {fileID: 0}
+  - text: "\u300C\u7238\u5ABD\u6211\u8981\u53BB\u5E6B\u4ED6\uFF01\u300D"
+    speaker: {fileID: 11400000, guid: df710337d04408040a12259cd2c91eb9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: df710337d04408040a12259cd2c91eb9, type: 2}
+      spriteIndex: 11
+      actionType: 1
+      coords: {x: 500, y: 0}
+      moveSpeed: 0
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u6D1B\u83EF\u6211\u77E5\u9053\u59B3\u5F88\u6025\uFF0C\u4F46\u73FE\u5728\u771F\u7684\u9084\u4E0D\u662F\u51FA\u73FE\u7684\u597D\u6642\u6A5F\u3002\u300D"
+    speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -250, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 32595e4b2461f6448bdfa785887bab88, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -500, y: 0}
+      moveSpeed: 0
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u2026\u4E00\u65E6\u5728\u932F\u8AA4\u7684\u6642\u9593\u9047\u5230\u4ED6\uFF0C\u5F8C\u679C\u5C07\u4E0D\u582A\u8A2D\u60F3\u3002\u300D"
+    speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: df710337d04408040a12259cd2c91eb9, type: 2}
+      spriteIndex: 16
+      actionType: 1
+      coords: {x: 500, y: 0}
+      moveSpeed: 0
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u2026\u2026\u70BA\u4EC0\u9EBC\uFF1F\u300D"
+    speaker: {fileID: 11400000, guid: df710337d04408040a12259cd2c91eb9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: df710337d04408040a12259cd2c91eb9, type: 2}
+      spriteIndex: 14
+      actionType: 1
+      coords: {x: 500, y: 0}
+      moveSpeed: 0
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u2026\u2026\u77E5\u9053\u53EB\u9192\u5922\u904A\u4E2D\u7684\u4EBA\u7684\u5F8C\u679C\u55CE\uFF1F\u300D"
+    speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u2026\u518D\u7B49\u7B49\u3002 \u53EA\u8981\u4ED6\u5F97\u5230\u9752\u9F8D\u7684\u5E6B\u52A9\u3002
+      \u2026\u518D\u7B49\u7B49\u2026\u3002\u300D"
+    speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' '
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: df710337d04408040a12259cd2c91eb9, type: 2}
+      spriteIndex: 14
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: c2d64a8eac0867543ab4260fc6fb57ae, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 32595e4b2461f6448bdfa785887bab88, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    autoPlay: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: e9b69da19f01572429840bd81b1724d7, type: 3}
+  nextScene: {fileID: 11400000, guid: e714787076e4c1847bb341548ee2431d, type: 2}
+  gameScene: 
+  autoPlay: 0

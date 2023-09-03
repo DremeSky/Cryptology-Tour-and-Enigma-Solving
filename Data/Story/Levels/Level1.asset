@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Level1
   m_EditorClassIdentifier: 
   answer: Cryptography
-  time: 600
+  time: 300
   switchOpen: 0
-  success: 1
-  nextSceneOfSuccess: {fileID: 11400000, guid: 600a36e1a8337c241b0cebda38b14437, type: 2}
-  nextSceneOfFail: {fileID: 11400000, guid: 1697f3c602fe5594ea06ee154c9c7b20, type: 2}
+  success: 0
+  nextSceneOfSuccess: {fileID: 11400000, guid: 6f51c867879024d40b47eba39e4d137d, type: 2}
+  nextSceneOfFail: {fileID: 11400000, guid: 0e0610dab97d3974fa85cdb4f46a35b4, type: 2}

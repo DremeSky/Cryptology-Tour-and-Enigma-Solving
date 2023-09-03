@@ -12,4 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86cbdcff6fa5e32498ffa4771e31a863, type: 3}
   m_Name: Global Value
   m_EditorClassIdentifier: 
-  openMenuLoading: 0
+  MenuSprite1: {fileID: 21300000, guid: 15293117e9190584697fc804813318cd, type: 3}
+  MenuSprite2: {fileID: 21300000, guid: aeb5fbc97848132418ccda39e240cad6, type: 3}
+  MenuSprite3: {fileID: 21300000, guid: 5c5f80d629c0c984ebf2883e3977a64b, type: 3}
+  MenuSprite4: {fileID: 21300000, guid: fa09339da677c284585aac64b8e6dccc, type: 3}
+  switchScene_GameGroup1: {fileID: 11400000, guid: 35906c94f902cff41909c5f2e93600d4, type: 2}
+  switchScene_GameGroup2: {fileID: 11400000, guid: bf1c5699917d125459068e915aaa54eb, type: 2}
+  switchScene_GameGroup3: {fileID: 11400000, guid: 8f1768de557250d4e9fb1507399a6268, type: 2}
+  switchScene_GameGroup4: {fileID: 11400000, guid: 516203b6edca1b946998b74dcef1a4c5, type: 2}
+  switchScene_GameGroup5: {fileID: 11400000, guid: 04491453a31a21746bc6243033f2407f, type: 2}
+  switchScene_GameEnd: {fileID: 11400000, guid: 9a1404168daff5e4cb623ef8dc62fb07, type: 2}
+  switchScene_LevelGroup1: Level1
+  switchScene_LevelGroup2: Persistent
+  switchScene_LevelGroup3: Persistent_Level3-1
+  switchScene_LevelGroup4: Persistent_Level4
+  switchScene_LevelGroup5: Persistent_Level5
+  switchScene_GameExplain: {fileID: 11400000, guid: 4bea15d696421e842b016158b404e816, type: 2}

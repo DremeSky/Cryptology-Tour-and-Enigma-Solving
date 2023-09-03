@@ -20,11 +20,13 @@ public class SpriteSwitcher : MonoBehaviour
         if(!isSwitched)
         {
             image2.sprite =sprite ;
+            image1.sprite =sprite ;
             animator.SetTrigger("SwitchFirst") ;
         }
         else
         {
             image1.sprite =sprite ;
+            image2.sprite =sprite ;
             animator.SetTrigger("SwitchSecond") ;
         }
         isSwitched =!isSwitched ;
@@ -35,10 +37,12 @@ public class SpriteSwitcher : MonoBehaviour
         if(!isSwitched)
         {
             image1.sprite =sprite ;
+            image2.sprite =sprite ;
         }
         else
         {
             image2.sprite =sprite ;
+            image1.sprite =sprite ;
         }
     }
 

@@ -53,16 +53,4 @@ public class InventoryManager : Singleton<InventoryManager>
             EventHandler.CallUpdateUIEvent(itemData.GetItemDetails(itemName) ,itemList.Count -1) ;
         }
     }
-
-    // public void ClickItem(ItemName itemName)
-    // {
-    //     if(inventoryManager.itemList.Contains(ItemName.不明圖案５))
-    //     {
-    //         if(itemName == ItemName.不明圖案５)
-    //         {
-
-    //         }
-    //     }
-    //     if(inventoryManager.itemList.Contains(ItemName.線索６))
-    // }
 }

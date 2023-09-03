@@ -35,3 +35,5 @@ MonoBehaviour:
     itemSprite: {fileID: 21300000, guid: 22305a8079b8f174593f73648166d82b, type: 3}
   - itemName: 11
     itemSprite: {fileID: 21300000, guid: 2a9cf69799c43704d81fcf53e5b52011, type: 3}
+  - itemName: 19
+    itemSprite: {fileID: 21300000, guid: 12a3bd9839a2f92409d7e58b5a6155c5, type: 3}

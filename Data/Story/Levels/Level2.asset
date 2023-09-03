@@ -16,5 +16,5 @@ MonoBehaviour:
   time: 0
   switchOpen: 0
   success: 1
-  nextSceneOfSuccess: {fileID: 11400000, guid: 9edf8804fd0b4234f936dd32a28a7685, type: 2}
+  nextSceneOfSuccess: {fileID: 11400000, guid: 43e801393dd288549bc08d2a0bd90b81, type: 2}
   nextSceneOfFail: {fileID: 0}

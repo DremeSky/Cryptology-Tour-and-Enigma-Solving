@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe48a4115bfbb40bb17643688dd38b, type: 3}
+  m_Name: Chap1-6_2(1)
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\u300C\u2026\u2026\u6B7B\u8DEF\uFF1F\uFF01\u300D"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' '
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions: []
+    autoPlay: 1
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 9e16060fe140a424da1c81615251b4e8, type: 3}
+  - text: ' '
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions: []
+    autoPlay: 1
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: 8266740e76c3592459d74f5a5085ce1b, type: 3}
+  background: {fileID: 21300000, guid: 6cb1e12a112027c44a64b2a6e0ae5ba4, type: 3}
+  nextScene: {fileID: 11400000, guid: 143c7dd673d8137479c48487c10bf6bb, type: 2}
+  gameScene: 
+  autoPlay: 0

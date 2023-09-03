@@ -10,7 +10,7 @@ public class InventoryUI : MonoBehaviour
     public int currentIndex ;   //UI當前物品的序號
     public InventoryManager inventoryManager ;
     private ItemName tempItem;
-    public ItemClick itemClick_Data;
+    // public ItemClick itemClick_Data;
 
     private void OnEnable(){
         EventHandler.UpdateUIEvent += OnUpdateUIEvent ;
@@ -39,6 +39,7 @@ public class InventoryUI : MonoBehaviour
                 rightButton.interactable = false;
             }
 
+            //Level2
             //如果背包數量超過4樣，偵測圖案碎片是否齊全。去除碎片且合成圖案5。
             if(inventoryManager.itemList.Count >= 4)
             {

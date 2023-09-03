@@ -14,5 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: "\u6D1B\u83EF"
   textColor: {r: 0.8679245, g: 0.31660137, b: 0.49224198, a: 0.74509805}
-  sprites: []
-  prefab: {fileID: 108228489349072208, guid: a09adabc245461c49b97262f3673aa79, type: 3}
+  sprites:
+  - {fileID: 21300000, guid: 72e27acc1e2680e48b1407167dae9229, type: 3}
+  - {fileID: 21300000, guid: 7bd391660f37134448ad5ca416e58eb2, type: 3}
+  - {fileID: 21300000, guid: 80d15fa7f9ebeeb4f807aa18fc4b41bc, type: 3}
+  - {fileID: 21300000, guid: e9d3ba9e911ffcc4e9d148517fe011a5, type: 3}
+  - {fileID: 21300000, guid: 92254063df1499b4d9f83d46ba770619, type: 3}
+  - {fileID: 21300000, guid: ae3ab9b8c3dc31947ab6e9954493ac7e, type: 3}
+  - {fileID: 21300000, guid: 80347ff54f451564682cd63202b638c5, type: 3}
+  - {fileID: 21300000, guid: 381d16577de735f4f9106de0f3874505, type: 3}
+  - {fileID: 21300000, guid: a2980dab8ea2bc44b994cd00ecc0d768, type: 3}
+  - {fileID: 21300000, guid: 89f5ceaf2fc8c384d853bcd96cc08436, type: 3}
+  - {fileID: 21300000, guid: 03e9d16456411b647997a8256ce24b82, type: 3}
+  - {fileID: 21300000, guid: bcf71d6f8b1ab1f49aa0526dd27b733b, type: 3}
+  - {fileID: 21300000, guid: 148d5bd0357e8c341ab4537a9b621e78, type: 3}
+  - {fileID: 21300000, guid: 7f0db191e4a37924696b7f407bb65f16, type: 3}
+  - {fileID: 21300000, guid: 1dde469c1ae44f441adf3b56fab769ed, type: 3}
+  - {fileID: 21300000, guid: 500081af76192f247aa68168c5d7d1c4, type: 3}
+  - {fileID: 21300000, guid: aab7892681a3aec4cbcc6f164a7ba720, type: 3}
+  - {fileID: 21300000, guid: 1a3459d66486ea6439211c18ac5fd9a6, type: 3}
+  - {fileID: 21300000, guid: a641a1507cf740d4e98c5230f03117fb, type: 3}
+  - {fileID: 21300000, guid: e774b9de3321bab4f84950bb5d948542, type: 3}
+  - {fileID: 21300000, guid: 77ef2e44342f4204195f2286f74d5c86, type: 3}
+  - {fileID: 21300000, guid: 3012a08abbcb8bd4aa054043809bfef2, type: 3}
+  - {fileID: 21300000, guid: 0e386c4f8cb95984b9c41cddc41d25ea, type: 3}
+  - {fileID: 21300000, guid: 7147739ab2c1fc440877e02a940dfa84, type: 3}
+  - {fileID: 21300000, guid: 7d6ae19c778588a4bbf765cb2b9ea890, type: 3}
+  - {fileID: 21300000, guid: fd096609488ba2442a2d13d1413d7457, type: 3}
+  - {fileID: 21300000, guid: a191af93245a033418c88ecd0d9b5457, type: 3}
+  prefab: {fileID: 108228489349072208, guid: 45022c30d04714a4a837ef79d76bee4b, type: 3}

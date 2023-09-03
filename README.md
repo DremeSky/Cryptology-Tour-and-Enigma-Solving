@@ -1,20 +1,26 @@
 # 【密碼學導覽與解謎】── 寓教於樂的RPG小品解謎
+<<<<<<< HEAD
 ![橫幅]()
+=======
+![橫幅](https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/f91d1edc-7b74-4562-ad73-73103f8562af>)
+>>>>>>> 3e977962ef5f6ea51c53590ba830708ae7cd0a59
 【密碼學導覽與解謎】是我在大學時與同學們共同製作的專題。這款名為專題的遊戲，可以說是因為同學 [yoyo](https://github.com/oydoubleyo) 的突發奇想而產生的。由他提出各種天馬行空的想法，然後我再進一步製作實現。於是，這款遊戲就這樣誕生了。
 
 
 ## 我們的故事
 ### 　欸，想不想來做款遊戲？
-　　2022年的9月，剛升上大三的我們，正在討論接下來的專題要研究什麼主題。同為室友的yoyo在某一天，突然不經意的開口，「」
+　　在2022年的9月，剛升上大三的我們，正在討論接下來專題研究的主題。當時，面對同住室友yoyo的詢問，我很是震驚得說道：「你認真的嗎？！」。坦白說，即便是現在回想起來，我仍然覺得那時候的我們，做出的是一個多麼大膽的決定。我想換個正常人，在聽到資工系的畢業專題竟然是做遊戲的時候，都不免會感到錯愕吧。
+\
+　　顯然，如同我所認識的那個yoyo，起初他也只是隨口脫口而出的想法而已。但我們仔細想了想，確實，如果隨便選個平常沒接觸，也沒有特別興趣的主題，來作為大學生涯的句點，也未免太過可惜。所以一個越來越大膽的想法，在我倆的腦海中逐漸產生而出。
 
-### 密碼學
+### 　選擇密碼學的理由
+　　在確定要做遊戲後，我們面臨了一個新的問題：如何將我們所學的專業知識與遊戲結合──我們當然不會天真的以為，隨便做個遊戲就可以交差了事了。在經過仔細地討論，以及一一的否決之後，我們終於有了結論。因為yoyo平常就有在關注黑客松的資訊，而我們在課程中也學過資安相關的內容。於是在與老師深入討論後，這份企劃就這麼愉快的誕生了。
 
 
 ## 遊戲畫面
-#### 　[背包系統(Inventory Manager)]()
 <div align=center>
-  <img width="639" alt="Inventory1" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving./assets/114667055/5f3d99a9-74da-4fc9-9bac-84a969717043">
-  <img width="637" alt="Inventory2" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving./assets/114667055/7faf63c7-5674-4299-ae4f-ba644ae35ce3">
+  <img width="639" alt="Inventory1" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/74116fae-8c95-465c-a61f-4d887a98e228">
+  <img width="637" alt="Inventory2" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/8597a425-d82a-43f8-875b-4213bb7a0735">
 </div>
 
 
@@ -50,6 +56,6 @@
 
 
 ## 備註
-　初代更新：2023/07/17
+　初代更新：2023/07/18
 
 

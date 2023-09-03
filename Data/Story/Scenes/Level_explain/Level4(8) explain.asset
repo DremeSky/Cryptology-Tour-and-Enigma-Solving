@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe48a4115bfbb40bb17643688dd38b, type: 3}
+  m_Name: Level4(8) explain
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\u300C\u6700\u5F8Caddroundkey\uFF0C\u5C31\u662F\u8207\u7576\u8F2A\u7684\u5BC6\u9470\u505AXOR\u300D"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: b735a30250569314381c218247663d43, type: 3}
+  nextScene: {fileID: 11400000, guid: 0003dd98ef1711f478ec9818760c0d9e, type: 2}
+  gameScene: 
+  autoPlay: 0

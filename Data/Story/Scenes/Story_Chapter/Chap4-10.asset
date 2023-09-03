@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe48a4115bfbb40bb17643688dd38b, type: 3}
+  m_Name: Chap4-10
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\u300C\u2026\u4E0A\u6B21\u7528\u5B8C\u4E4B\u5F8C\uFF0C\u5C31\u8B8A\u6210\u9019\u6A23\u4E86\u3002\u300D"
+    speaker: {fileID: 11400000, guid: 2b14addf73fde8940942f727ec6425f8, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u770B\u8457\u624B\u4E0A\u9EEF\u6DE1\u7684\u9F8D\u73E0\uFF0C\u773E\u4EBA\u90FD\u6709\u5E7E\u5206\u5C37\u5C2C\u3002"
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u2026\u6C92\u4E8B\uFF0C\u6211\u9019\u4E5F\u6709\u4E00\u9846\u3002\u300D"
+    speaker: {fileID: 11400000, guid: df710337d04408040a12259cd2c91eb9, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u53EA\u898B\u6D1B\u83EF\u5F9E\u4E00\u65C1\u53D6\u51FA\u53E6\u4E00\u9846\u5149\u5F69\u596A\u76EE\u7684\u9F8D\u73E0\uFF0C\u96A8\u5373\u5169\u9846\u9F8D\u73E0\u4F3C\u4E4E\u611F\u61C9\u5230\u4E86\u5C0D\u65B9\u7684\u5B58\u5728\uFF0C\u540C\u6642\u98DB\u50CF\u4E86\u7A7A\u4E2D\u3002"
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u2026\u2026\u2026\uFF01\u300D"
+    speaker: {fileID: 11400000, guid: df710337d04408040a12259cd2c91eb9, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 995939769b3b16742a7e63b12b748c30, type: 3}
+  nextScene: {fileID: 11400000, guid: e58c237410669d840835a22b61636885, type: 2}
+  gameScene: 
+  autoPlay: 0

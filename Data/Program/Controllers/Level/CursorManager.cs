@@ -37,6 +37,7 @@ public class CursorManager : MonoBehaviour
         //物品被點擊
         if(Input.GetMouseButtonDown(0))
         {
+            //Level2
             if(currentItem == ItemName.線索６)
             {
                 itemClick.ShowItem(ItemName.線索６);
@@ -45,6 +46,33 @@ public class CursorManager : MonoBehaviour
             else if(currentItem == ItemName.不明圖案５)
             {
                 itemClick.ShowItem(ItemName.不明圖案５);
+                currentItem = ItemName.None;
+            }
+            else if(currentItem == ItemName.彩蛋２)
+            {
+                itemClick.ShowItem(ItemName.彩蛋２);
+                currentItem = ItemName.None;
+            }
+
+            //level3
+            else if(currentItem == ItemName.信箱圖案)
+            {
+                itemClick.ShowItem(ItemName.信箱圖案);
+                currentItem = ItemName.None;
+            }
+            else if(currentItem == ItemName.信箱地址)
+            {
+                itemClick.ShowItem(ItemName.信箱地址);
+                currentItem = ItemName.None;
+            }
+            else if(currentItem == ItemName.碎紙片)
+            {
+                itemClick.ShowItem(ItemName.碎紙片);
+                currentItem = ItemName.None;
+            }
+            else if(currentItem == ItemName.彩蛋１)
+            {
+                itemClick.ShowItem(ItemName.彩蛋１);
                 currentItem = ItemName.None;
             }
         }

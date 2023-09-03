@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe48a4115bfbb40bb17643688dd38b, type: 3}
+  m_Name: Chap4-12(2)
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\u5F85\u5230\u5149\u8292\u6563\u53BB\uFF0C\u53EA\u898B\u5169\u9846\u73E0\u5B50\u5C31\u5982\u539F\u672C\u5C31\u5B58\u5728\u5728\u90A3\u88E1\u4F3C\u7684\uFF0C\u6F02\u6D6E\u5728\u7A7A\u4E2D\u3002"
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "(\u2026\u600E\u9EBC\u56DE\u4E8B\uFF1F)"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+      spriteIndex: 4
+      actionType: 1
+      coords: {x: -400, y: 0}
+      moveSpeed: 0
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u5728\u7409\u7A57\u773C\u4E2D\uFF0C\u8207\u5149\u8292\u4E00\u540C\u6D6E\u73FE\u7684\uFF0C\u9084\u6709\u5E7E\u500B\u6B6A\u6B6A\u626D\u626D\u7684\u5B57\u3002"
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "(\u2026A\u2026E\u2026S\uFF1F)"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "(\u2026\u2026\u6211\u8A18\u5F97\u9019\u500B\u662F\u2026\u3002)"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ' '
+    speaker: {fileID: 11400000, guid: f2d8cd57db8c9e249872931fef44a5f0, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+      spriteIndex: 4
+      actionType: 3
+      coords: {x: -400, y: 0}
+      moveSpeed: 0
+    autoPlay: 1
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: 1d995045df181af4dacfa7093b47400c, type: 3}
+  nextScene: {fileID: 11400000, guid: 463352a393bb595439c9c51c696edfbe, type: 2}
+  gameScene: 
+  autoPlay: 0

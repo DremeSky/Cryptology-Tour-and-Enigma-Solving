@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe48a4115bfbb40bb17643688dd38b, type: 3}
+  m_Name: Level1(1) explain
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\u300C\u4EE5\u524D\u9762\u7684\u90A3\u9053\u9580\u4F86\u8209\u4F8B\u3002\u9084\u8A18\u5F97\u9580\u4E0A\u9762\u7684\u90A3\u4E32\u6587\u5B57\u662F\u300EKgboipzxwzxg\u300F\u5C0D\u5427\uFF1F\u300D"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 750, y: 0}
+      moveSpeed: 0
+    autoPlay: 0
+    music: {fileID: 8300000, guid: 5191c142c51d97247bb198efe87af3f5, type: 3}
+    sound: {fileID: 0}
+  - text: "\u300C\u300E\u9AD8\u76E7\u7684\u652F\u914D\u8005\u300F\u3002\u9019\u8AAA\u7684\u4E0D\u5C31\u662F\u51F1\u85A9\u5927\u5E1D\u55CE\uFF1F\u7528\u4E868\u5E74\u5F81\u670D\u4E86\u9AD8\u76E7\u3002\u300D"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: cd354deb1f2e80549ae821f23b730782, type: 3}
+  nextScene: {fileID: 11400000, guid: 76470308a4881434dbd95aefd6e04f54, type: 2}
+  gameScene: 
+  autoPlay: 0

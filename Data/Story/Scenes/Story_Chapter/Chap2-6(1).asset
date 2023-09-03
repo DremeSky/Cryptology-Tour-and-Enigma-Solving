@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46fe48a4115bfbb40bb17643688dd38b, type: 3}
+  m_Name: Chap2-6(1)
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\u300C\u7409\u7A57\u54E5\uFF5E\u966A\u6211\u73A9\u904A\u6232\u55CE\uFF5E\u300D"
+    speaker: {fileID: 11400000, guid: f7a091516add4404b9fa76f95b7b47a1, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 8300000, guid: 3cfad171e2bd29e4c86f05e1ccb49786, type: 3}
+    sound: {fileID: 8300000, guid: b2115fb5aac0dbb41b2d82d5ec309680, type: 3}
+  - text: "\u300C\u6D1B\u83EF\u4E56\uFF5E\u54E5\u54E5\u770B\u5B8C\u9019\u88E1\u5C31\u966A\u59B3\u73A9\u3002\u300D"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u7409\u7A57\u54E5\u6BCF\u6B21\u90FD\u9019\u6A23\uFF5E\uFF01\u4E00\u5929\u5230\u665A\u90FD\u5728\u62B1\u8457\u90A3\u4E9B\u66F8\uFF01\u4EC0\u9EBC\u51F1\u85A9\u5927\u5E1D\uFF0C\u6469\u65AF\u5BC6\u78BC\u7684\u2026\u3002\u90FD\u4E0D\u966A\u6211\u4E00\u8D77\u73A9\uFF01\u300D"
+    speaker: {fileID: 11400000, guid: df710337d04408040a12259cd2c91eb9, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: "\u300C\u6D1B\u83EF\u2026\uFF01\uFF01\u2026\u2026\u6D1B\u83EF\u4E5F\u771F\u662F\u7684\u2026\u3002\u300D"
+    speaker: {fileID: 11400000, guid: 7009c84f7154e634a9ecf46d5747403b, type: 2}
+    actions: []
+    autoPlay: 0
+    music: {fileID: 0}
+    sound: {fileID: 8300000, guid: f4aa9db1d868207418eba90a063700ad, type: 3}
+  background: {fileID: 21300000, guid: 8dab6fcdddd88b642bdd2013448bb394, type: 3}
+  nextScene: {fileID: 11400000, guid: 4848c99d9ee74ec439a0c533d628034e, type: 2}
+  gameScene: 
+  autoPlay: 0

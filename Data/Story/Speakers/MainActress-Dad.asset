@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53af5cc0c4a1ff949ad34997d726e8f8, type: 3}
   m_Name: MainActress-Dad
   m_EditorClassIdentifier: 
-  speakerName: "\uFF1F\uFF1F\uFF1F"
+  speakerName: "\u6D1B\u83EF\u7238"
   textColor: {r: 0.14287403, g: 0.66253185, b: 0.8113208, a: 0.74509805}
   sprites:
   - {fileID: 21300000, guid: dbef6e927d07f8a429e193d445740e75, type: 3}
   - {fileID: 21300000, guid: c6996ac822000824a9c799348701a014, type: 3}
-  prefab: {fileID: 108228489349072208, guid: 533d69c7cdf15cf4e97da020dfe8d22e, type: 3}
+  prefab: {fileID: 108228489349072208, guid: 2100db663d39265489db889a53ff25ce, type: 3}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0dfd03b896023f4d8c73e45301262a0, type: 3}
+  m_Name: Choose1-6
+  m_EditorClassIdentifier: 
+  labels:
+  - text: "\u300C\u4E0D\u7BA1\u4E86\uFF01\u5F80\u5DE6\u908A\uFF01\u300D"
+    nextScene: {fileID: 11400000, guid: 44fe8683d5adf0a4aaa4eeebfcc9f8de, type: 2}
+  - text: "\u300C\u4F86\u4E0D\u53CA\u4E86\uFF01\u7E7C\u7E8C\u5F80\u524D\u8DD1\uFF01\u300D"
+    nextScene: {fileID: 11400000, guid: 87039d8ca2dea974fb6d6769c5479ba8, type: 2}
+  - text: "\u300C\u2026\u9019\u8072\u97F3\u90FD\u4E0D\u77E5\u9053\u5F9E\u54EA\u4F86\u7684\uFF0C\u9084\u662F\u5F80\u53F3\u908A\u5427\u3002\u300D"
+    nextScene: {fileID: 11400000, guid: 87039d8ca2dea974fb6d6769c5479ba8, type: 2}

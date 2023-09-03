@@ -1,0 +1,54 @@
+使用素材之清單：
+
+　音樂：
+	魔王魂 BGM跟音效
+	　maou_bgm_cyber17
+	　maou_bgm_ethnic18
+	　maou_bgm_fantasy05
+	　maou_bgm_piano01
+	　maou_bgm_piano29
+	　maou_bgm_piano37
+	　maou_game_village05
+	　maou_game_village07
+	　アコースティック45
+	　ファンタジー11
+	　maou_se_chime03
+	　maou_se_effect11
+	　maou_se_magic_water01
+	　maou_se_magic_water02
+	　maou_se_magic_water09
+	　maou_se_sound_noise01
+	　maou_se_sound_phone02
+	　maou_se_voice_tiger01
+
+	小森平的免費下載音效
+	　transformation
+	　heavy_punch5
+
+	GameSounds.xyz
+
+	効果音ラボ
+
+	淘声网
+
+
+　美術：
+	novelAI
+
+	Notion
+
+	(其他之網路免費可商用圖片，諸如photoAC等)
+
+
+　程式碼：
+	AD works一MAKING VISUAL NOVEL in Unity
+
+	M Studio一制作《迷失岛2》游戏框架
+
+
+　其他：
+	辰宇落雁體 Chenyu-otf/chenyuluoyan_thin
+
+
+！再次申明！
+　　本遊戲採取免費提供遊玩，無使用於任何商業行為。若您從非正當管道獲取使用該遊戲，概不負責。
