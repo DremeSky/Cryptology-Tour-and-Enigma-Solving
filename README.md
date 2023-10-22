@@ -6,6 +6,8 @@
   <img width="200" alt="image (2)" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/050b8bcb-1d07-4ea6-a53d-169ce7286b63"><img width="200" alt="image" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/f3b2714d-ab90-4970-8eca-d1faccf7d7ff"><img width="200" alt="image (1)" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/fa140fdf-d269-4d9c-9464-a9fd69d8fbdd"><img width="200" alt="CG1-BadEnd" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/89211d6b-5681-40f1-94db-c917ec0b4007">
 
   【密碼學導覽與解謎】是我在大學時與同學們共同製作的專題。這款既是專題，又是名為《夢遊他鄉》的遊戲，可以說是因為同學 [yoyo](https://github.com/oydoubleyo) 的突發奇想而產生的。由他接二連三地提出各種天馬行空的想法，然後再由我進一步地製作實現。於是，這款遊戲就這樣誕生了。
+\
+　　
 
 
 ## 我們的故事
@@ -16,6 +18,8 @@
 
 ### 　選擇密碼學的理由
 　　在確定要做遊戲後，我們面臨了一個新的問題：如何將我們所學的專業知識與遊戲結合──我們當然不會天真的以為，隨便做個遊戲就可以交差了事了。在經過仔細地討論，以及一一的否決之後，我們終於有了結論。因為yoyo平常就有在關注黑客松的資訊，而我們在課程中也學過資安相關的內容。於是在與老師深入討論後，這份企劃就這麼愉快的誕生了。
+\
+　　
 
 
 ## 遊戲的設計架構
