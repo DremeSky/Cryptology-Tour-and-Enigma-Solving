@@ -1,6 +1,8 @@
+<style>
 《 夢遊他鄉 》{
     text-align: center; //文字置中
 }
+</style>
 # 【密碼學導覽與解謎】── 寓教於樂的RPG小品解謎
 <<<<<<< HEAD
 ![橫幅]()
