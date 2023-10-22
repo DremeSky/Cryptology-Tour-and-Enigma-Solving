@@ -1,5 +1,5 @@
-<p class="text-center">
-# 《 夢遊他鄉 》
+# <p class="text-center">
+《 夢遊他鄉 》
 </p>
 
 # 【密碼學導覽與解謎】── 寓教於樂的RPG小品解謎
