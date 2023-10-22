@@ -50,7 +50,7 @@
 - 我好像在哪有看過類似的系統？
 　<br>由於在遊戲中所使用的場景技術，是參考網路上的原型，然後經過後續的增加和改建才形成的。因此在程式碼上會有一定程度上的相似之處。
 \
-　以下列舉在開發過程中，參考較頻繁的教學網站來源：
+以下列舉在開發過程中，參考較頻繁的教學網站來源：
 [文本系統](https://www.youtube.com/watch?v=33XDR6E5W7g&list=PL6_cpWr0PK5w086Tm_9uyxky63xQWW6jU&ab_channel=ADworks)
  ； 
 [背包系統(Inventory Manager)](https://www.youtube.com/watch?v=WHkTz14bV3s&list=PL_Pb2I110MfEYrG9JRN3R7QYRqRl6hMCc&index=1&ab_channel=MStudio)
