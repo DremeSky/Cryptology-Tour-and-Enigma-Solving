@@ -27,13 +27,13 @@ public class InventoryManager : Singleton<InventoryManager>
     {
         if(itemList.Count == 0)
             EventHandler.CallUpdateUIEvent(null ,-1);
-        else
-        {
-            for(int i = 0 ;i < itemList.Count ;i++)
-            {
-                EventHandler.CallUpdateUIEvent(itemData.GetItemDetails(itemList[i]) ,i);
-            }
-        }
+        // else
+        // {
+        //     for(int i = 0 ;i < itemList.Count ;i++)
+        //     {
+        //         EventHandler.CallUpdateUIEvent(itemData.GetItemDetails(itemList[i]) ,i);
+        //     }
+        // }
     }
 
     private void OnChangeItemEvent(int index)

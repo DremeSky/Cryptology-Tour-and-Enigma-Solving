@@ -36,6 +36,7 @@ public class MenuController : MonoBehaviour
     //內部資料 (private) {測試用時，會打開成public查看數據}
         private Animator animator;
         private bool open_windows = false;
+        private int type_openWindows = 0;   //給open_windows用，0 關閉 ； 1 Loading ； 2 Option
         private bool open_Loading = false;
         private bool open_MenuSprite = false;   //偵測主選單圖片切換開關用
 
@@ -62,6 +63,7 @@ public class MenuController : MonoBehaviour
 
         //重製資料
         open_windows = false;
+        type_openWindows = 0;
         open_Loading = false;
         open_MenuSprite = false;
     }
@@ -150,6 +152,18 @@ public class MenuController : MonoBehaviour
             loadButton_LevelGroup2.interactable = true;
         if(csvManager.Determine_OpenValue("Level3"))
             loadButton_LevelGroup3.interactable = true;
+        
+        //如果點擊ESC，偵測關閉視窗。
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(open_windows)
+            {
+                if(type_openWindows == 1)
+                    LoadHide_Button();
+                else if(type_openWindows == 2)
+                    OptionsHide_Button();
+            }
+        }
     }
 
 
@@ -171,6 +185,7 @@ public class MenuController : MonoBehaviour
         {
             animator.SetTrigger("LoadShow");
             open_windows = true;
+            type_openWindows = 1;
         }
     }
     public void LoadHide_Button()
@@ -179,6 +194,7 @@ public class MenuController : MonoBehaviour
         {
             animator.SetTrigger("LoadHide");
             open_windows = false;
+            type_openWindows = 0;
         }
     }
 
@@ -302,6 +318,7 @@ public class MenuController : MonoBehaviour
         {
             animator.SetTrigger("OptionsShow");
             open_windows = true;
+            type_openWindows = 2;
         }
     }
     public void OptionsHide_Button()
@@ -310,6 +327,7 @@ public class MenuController : MonoBehaviour
         {
             animator.SetTrigger("OptionsHide");
             open_windows = false;
+            type_openWindows = 0;
         }
     }
 

@@ -128,7 +128,16 @@ public class BottomBarController : MonoBehaviour
 
     private void PlaySentence(bool isAnimated =true)
     {
-        bottomBar_Text = currentScene.sentences[sentenceIndex].text;    //對話紀錄用 {GameController}
+        //對話紀錄用 {GameController}
+        if(currentScene.sentences[sentenceIndex].speaker.speakerName != "")
+        {
+            bottomBar_Text = currentScene.sentences[sentenceIndex].speaker.speakerName + " : "
+                        + currentScene.sentences[sentenceIndex].text;
+        }
+        else
+        {
+            bottomBar_Text = currentScene.sentences[sentenceIndex].text;
+        }
 
         speedFactor =1f ;
         typingCoroutine =StartCoroutine(TypeText(currentScene.sentences[sentenceIndex].text)) ;

@@ -10,7 +10,6 @@ public class InventoryUI : MonoBehaviour
     public int currentIndex ;   //UI當前物品的序號
     public InventoryManager inventoryManager ;
     private ItemName tempItem;
-    // public ItemClick itemClick_Data;
 
     private void OnEnable(){
         EventHandler.UpdateUIEvent += OnUpdateUIEvent ;
@@ -33,6 +32,8 @@ public class InventoryUI : MonoBehaviour
 
             if(index > 0)
                 leftButton.interactable = true;
+            if(index == inventoryManager.itemList.Count - 1)
+                rightButton.interactable = false;
             if(index == -1)
             {
                 leftButton.interactable = false;
@@ -71,8 +72,9 @@ public class InventoryUI : MonoBehaviour
                     }
 
                     inventoryManager.AddItem(ItemName.不明圖案５) ;
-                    EventHandler.CallUpdateUIEvent(inventoryManager.itemData.GetItemDetails(ItemName.不明圖案５) ,inventoryManager.itemList.Count -1) ;
-                    currentIndex = 0;
+                    currentIndex = inventoryManager.itemList.Count -1;
+                    EventHandler.CallUpdateUIEvent(inventoryManager.itemData.GetItemDetails(ItemName.不明圖案５) ,currentIndex);
+                    SwitchItem(0);
                 }
             }
             
@@ -111,8 +113,9 @@ public class InventoryUI : MonoBehaviour
                     }
 
                     inventoryManager.AddItem(ItemName.線索６) ;
-                    EventHandler.CallUpdateUIEvent(inventoryManager.itemData.GetItemDetails(ItemName.線索６) ,inventoryManager.itemList.Count -1) ;
-                    currentIndex = 0;
+                    currentIndex = inventoryManager.itemList.Count -1;
+                    EventHandler.CallUpdateUIEvent(inventoryManager.itemData.GetItemDetails(ItemName.線索６) ,currentIndex);
+                    SwitchItem(0);
                 }
             }
         }

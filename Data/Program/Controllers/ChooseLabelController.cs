@@ -34,6 +34,7 @@ public class ChooseLabelController : MonoBehaviour ,IPointerClickHandler ,IPoint
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        controller.return_ChooseText(textMesh.text);
         controller.PerformChoose(scene) ;
     }
 

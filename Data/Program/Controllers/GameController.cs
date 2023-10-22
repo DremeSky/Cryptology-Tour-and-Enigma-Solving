@@ -359,8 +359,8 @@ public class GameController : MonoBehaviour
     //自動撥放(按鍵A)
     public void Button_Auto()
     {
-        //變數重製(關閉) (按鍵Q的Log)
-        open_TextRecord = false;
+        //先偵測有沒有再查看對話紀錄(Log)，有的話關閉。
+        Determine_Log();
 
         //如果開關A打開，開啟open_Auto，呼叫執行Function
         if(!open_A)
@@ -392,6 +392,12 @@ public class GameController : MonoBehaviour
         {
             list_StoryText.Add(bottomBar.return_BottomBarText());
         }
+    }
+
+    //從ChooseController呼叫選擇的選項文字，並將其存入list_StoryText
+    public void Cache_ChooseText(string input)
+    {
+        list_StoryText.Add(input);
     }
 
     //把list_StoryText加到text_TextRecord中，做對話紀錄用(Q、滑鼠中鍵)

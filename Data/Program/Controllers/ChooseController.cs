@@ -81,4 +81,11 @@ public class ChooseController : MonoBehaviour
             Destroy(childTransform.gameObject) ;
         }
     }
+
+
+    //回傳給GameController做Log用。
+    public void return_ChooseText(string input)
+    {
+        gameController.Cache_ChooseText(input);
+    }
 }

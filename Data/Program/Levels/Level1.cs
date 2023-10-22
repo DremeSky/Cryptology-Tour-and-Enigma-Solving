@@ -24,6 +24,7 @@ public class Level1 : MonoBehaviour
 
     //內部資料 (private) {測試用時，會打開成public查看數據}
     private bool open_windows = false;
+    private bool open_windows_Answer = false;
     private bool open_LoadValue = false;    //Menu -> Load
 
 
@@ -56,6 +57,7 @@ public class Level1 : MonoBehaviour
 
         //變數重製
         open_windows = false;
+        open_windows_Answer = false;
         HintText.text = "";
         targets_Button1.SetActive(false);
         targets_Button2.SetActive(false);
@@ -69,6 +71,13 @@ public class Level1 : MonoBehaviour
     //關卡提示的畫面顯示跟關閉。
     private void HintShow_Function()
     {
+        //如果關卡輸入打開，先將其關閉。
+        if(open_windows_Answer)
+        {
+            open_windows_Answer = false;
+        }
+
+        //再進行關卡提示。
         if(!open_windows)
         {
             animator.SetTrigger("Hint_Show") ;
@@ -121,18 +130,25 @@ public class Level1 : MonoBehaviour
     //關卡回答的畫面顯示跟關閉。
     public void AnswerShow_Button()
     {
-        if(!open_windows)
+        //如果關卡提示打開，先將其關閉。
+        if(open_windows)
+        {
+            open_windows = false;
+        }
+
+        //再進行關卡輸入。
+        if(!open_windows_Answer)
         {
             animator.SetTrigger("Answer_Show") ;
-            open_windows = true;
+            open_windows_Answer = true;
         }
     }
     public void AnswerHide_Button()
     {
-        if(open_windows)
+        if(open_windows_Answer)
         {
             animator.SetTrigger("Answer_Hide") ;
-            open_windows = false;
+            open_windows_Answer = false;
         }
     }
 
