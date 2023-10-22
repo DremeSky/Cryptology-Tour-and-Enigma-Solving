@@ -20,7 +20,7 @@
 
 ## 遊戲的設計架構
 　　顯然，在座的各位應該不會想聽小編在這邊嘮叨什麼密碼學原理、Unity語法邏輯啥的玩意兒對吧？所以讓我們簡單的放張圖吧↓↓
-    <img width="960" alt="image (3)" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/8a706198-e4a2-46a3-8af6-6e4580e246b1">
+    <img width="960" alt="image (3)" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/676ab10d-c623-44b1-9c50-fdf16c2adf02">
 　　嗯對，那些省略的部分，大家就自行在遊戲中體驗吧～。(啊當然，你想去上面那邊爬幾千行的程式碼，我也是不攔你啦)
 　　
 
