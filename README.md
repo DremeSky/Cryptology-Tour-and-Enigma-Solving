@@ -1,5 +1,4 @@
-# 【密碼學導覽與解謎】── 寓教於樂的RPG小品解謎
-# 《 夢遊他鄉 》
+# 【密碼學導覽與解謎】── 寓教於樂的RPG小品解謎  《 夢遊他鄉 》
 
 ![橫幅](https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/f91d1edc-7b74-4562-ad73-73103f8562af>)
 【密碼學導覽與解謎】是我在大學時與同學們共同製作的專題。這款名為專題的遊戲，可以說是因為同學 [yoyo](https://github.com/oydoubleyo) 的突發奇想而產生的。由他提出各種天馬行空的想法，然後我再進一步製作實現。於是，這款遊戲就這樣誕生了。
