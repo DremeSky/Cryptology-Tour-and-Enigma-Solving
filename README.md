@@ -1,11 +1,9 @@
 # 【密碼學導覽與Unity實作】 
 # 寓教於樂的RPG小品解謎 ──《 夢遊他鄉 》
 
-<img width="960" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/27eddf59-8e45-490e-9f4b-35e046490d08/image (5).png">
-
 
 <a href="https://drive.google.com/drive/folders/1uUVM0w1WcuqM8k1pip9K3hXF9AzNWwGX">
-  AAA
+  <img src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/blob/main/Data/Sprites/BackGround/image%20(5).png">
 </a>
 
 <center class="half">
