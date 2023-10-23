@@ -2,9 +2,9 @@
 # 寓教於樂的RPG小品解謎 ──《 夢遊他鄉 》
 
 
-<p align="center"> ＰＶ影片連結：(https://drive.google.com/drive/folders/1uUVM0w1WcuqM8k1pip9K3hXF9AzNWwGX) </p>
-
-<img width="960" alt="圖片1" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/ac49a34b-415d-470b-9ae3-70c770e5094d">
+<a href=https://drive.google.com/drive/folders/1uUVM0w1WcuqM8k1pip9K3hXF9AzNWwGX">
+  <img width="960" alt="圖片1" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/ac49a34b-415d-470b-9ae3-70c770e5094d">
+</a>
 
 <center class="half">
   <img width="200" alt="image (2)" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/050b8bcb-1d07-4ea6-a53d-169ce7286b63"><img width="200" alt="image" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/f3b2714d-ab90-4970-8eca-d1faccf7d7ff"><img width="200" alt="image (1)" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/fa140fdf-d269-4d9c-9464-a9fd69d8fbdd"><img width="200" alt="CG1-BadEnd" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/89211d6b-5681-40f1-94db-c917ec0b4007">
