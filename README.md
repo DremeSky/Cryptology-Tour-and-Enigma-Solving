@@ -3,7 +3,7 @@
 
 
 <a href="https://drive.google.com/drive/folders/1uUVM0w1WcuqM8k1pip9K3hXF9AzNWwGX">
-  <img width="960" alt="image (5)" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/3b41b9a5-0e0a-4b48-8010-de9d2f7e980a">
+  <img src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/3b41b9a5-0e0a-4b48-8010-de9d2f7e980a">
 </a>
 
 <center class="half">
