@@ -2,8 +2,8 @@
 # 寓教於樂的RPG小品解謎 ──《 夢遊他鄉 》
 
 
-<a href="https://drive.google.com/drive/folders/1uUVM0w1WcuqM8k1pip9K3hXF9AzNWwGX/">
-  <img width="960" alt="image (5)" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/9c8ac580-9bff-4c18-ab40-cd850d933b03">
+<a href="https://drive.google.com/drive/folders/1uUVM0w1WcuqM8k1pip9K3hXF9AzNWwGX">
+  <img src="image (5).png">
 </a>
 
 <center class="half">
