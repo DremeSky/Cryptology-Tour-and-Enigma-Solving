@@ -1,4 +1,4 @@
-# 【密碼學導覽與解謎】 
+# 【密碼學導覽與Unity實作】 
 # 寓教於樂的RPG小品解謎 ──《 夢遊他鄉 》
 
 ![免責申告](https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/e3f60951-349d-4478-97e1-6e9de4af82a6)
@@ -24,7 +24,7 @@
 
 ## 遊戲的設計架構
 　　顯然，在座的各位應該不會想聽小編在這邊嘮叨什麼密碼學原理、Unity語法邏輯啥的玩意兒對吧？所以讓我們簡單的放張圖吧↓↓
-    <img width="960" alt="image (3)" src="https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/676ab10d-c623-44b1-9c50-fdf16c2adf02">
+    ![A](https://github.com/DremeSky/Cryptology-Tour-and-Enigma-Solving/assets/114667055/a238a0e8-15c9-4e30-9c2c-fa7dd4b96ff0)
 \
 　　嗯對，那些省略的部分，大家就自行在遊戲中體驗吧～。(啊當然，你想去上面那邊爬幾千行的程式碼，我也是不攔你啦)
 　　
